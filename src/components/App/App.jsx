@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Budget from './components/Budget/Budget';
+import Budget from '../Budget/Budget';
+import Balance from '../Balance/Balance';
 
 const App = () => {
   return (
@@ -9,6 +10,9 @@ const App = () => {
       <div className="row mt-3">
         <div className="col-sm">
           <Budget />
+        </div>
+        <div className="col-sm">
+          <Balance />
         </div>
       </div>
     </div>
