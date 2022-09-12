@@ -2,6 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Budget from '../Budget/Budget';
 import Balance from '../Balance/Balance';
+import Expense from '../Expense/Expense';
 
 const App = () => {
   return (
@@ -13,6 +14,9 @@ const App = () => {
         </div>
         <div className="col-sm">
           <Balance />
+        </div>
+        <div className="col-sm">
+          <Expense />
         </div>
       </div>
     </div>
