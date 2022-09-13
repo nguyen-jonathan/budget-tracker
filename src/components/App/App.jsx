@@ -5,7 +5,7 @@ import Balance from '../Balance/Balance';
 import Expense from '../Expense/Expense';
 import ExpenseList from '../ExpenseList/ExpenseList';
 import AddExpenseForm from '../AddExpenseForm/AddExpenseForm';
-import {AppProvider} from '../AppContext';
+import {AppProvider} from '../../context/AppContext';
 
 const App = () => {
   return (
