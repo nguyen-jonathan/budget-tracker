@@ -1,3 +1,20 @@
+# About the Project
+
+One week sprint to create a personal budget tracker with CRUD on localhost.
+Personal goals to better understanding of using reducer and styling with bootstrap.
+
+## Stretch Goals
+
+- Add search field for transactions
+- Connect to a database
+- Incorporate additional bootstrap styling
+
+# Built with
+
+React
+Bootstrap
+npm
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
